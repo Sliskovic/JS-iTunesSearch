@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    background-image: url(/media/paris.jpg);
+    background-attachment: fixed;
+    background-position: center  ; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+}
+.container{
+    background: rgba(0,0,0,0.5);
+    width: 80vw;
+    color: cornsilk;
+    text-align: center;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+}
+.search{
+    margin: 50px auto;
+}
+.submitbtn, .deletebtn{
+    min-width: 10vw;
+    height: 50px;
+    border-radius: 25px;
+    background: rgb(36, 27, 28);
+    color: cornsilk;
+    outline: none; 
+}
+#back2Top{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border: none;
+    outline: none;
+    background: rgb(36, 27, 28) ;
+    color: cornsilk;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 18px;
+    transform: rotate(270deg);
+}
+.input-value{
+    width: 30vw;
+    height: 50px;
+    border-radius: 25px;
+    color: #333;
+    padding: 10px;
+    outline: none;
+}
+.result-show{
+    padding: 20px;
+    margin: 40px auto;
+}
+h1{
+    margin: 40px auto;
+}
